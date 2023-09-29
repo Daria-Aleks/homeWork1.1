@@ -162,8 +162,6 @@ body {
     padding-top: 32px;
     display: flex;
     justify-content: center;
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
   }
   .game {
     display: flex;
