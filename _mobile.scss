@@ -7,8 +7,7 @@
         height: 735px;
         &__content {
             padding-top: 238px;
-            padding-left: calc(50% - 600px);
-            padding-right: calc(50% - 600px);
+
         }
         &__header{
             font-size: 32px;
@@ -62,4 +61,8 @@
     .container{
         flex-direction: column;
     }
+    .content-center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
 }

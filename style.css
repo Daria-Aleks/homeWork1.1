@@ -113,6 +113,7 @@ body {
   font-weight: 600;
   line-height: 32px; /* 133.333% */
   padding-top: 236px;
+  padding-left: 32px;
 }
 .game .container {
   display: flex;
@@ -138,8 +139,6 @@ body {
   }
   .main__content {
     padding-top: 238px;
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
   }
   .main__header {
     font-size: 32px;
@@ -187,5 +186,9 @@ body {
   }
   .container {
     flex-direction: column;
+  }
+  .content-center {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
