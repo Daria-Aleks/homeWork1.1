@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .main {
@@ -16,7 +15,6 @@ body {
     background-size: cover;
     &__content{
         padding-top: 217px;
-        padding-left: 120px;
     }
     &__header{
         color: #FFF;
@@ -80,7 +78,6 @@ body {
     background: hsl(214, 100%, 4%);
     height: 556px;
     padding-top: 128px;
-    padding-left: 120px;
     display: flex;
     flex-direction: column;
     &__card {
@@ -116,15 +113,16 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: 32px; /* 133.333% */
-        padding-top: 236px;
-        padding-left: 32px;
-    }
+        padding-top: 236px;    }
     .container {
         display: flex;
         gap: 30px
     }
 }
-
+.content-center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
 
 
 
