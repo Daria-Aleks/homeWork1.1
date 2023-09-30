@@ -1,6 +1,6 @@
-let i='Привет';
-while (i<3) {
-    console.log (i);
+let i = 0;
+while (i<2) {
+    console.log ('Привет');
     i++;
 }
 //
@@ -15,3 +15,20 @@ while (b<=22) {
     console.log (b);
     b++;    
 }
+//
+let obj = {
+    "Коля": 200,
+    "Вася": 300,
+    "Петя": 400
+};
+for (let salary in obj) {
+    console.log(`${salary} - зарплата ${obj[salary]} долларов`);
+}
+//
+let num = 0;
+let n = 1000;
+while (num>50) {
+    num++;
+    num/=2;
+}
+console.log ('Количество циклов -', num, 'получившееся число -', n);
