@@ -27,8 +27,14 @@ for (let salary in obj) {
 //
 let num = 0;
 let n = 1000;
-while (num>50) {
+while (n>50) {
     num++;
-    num/=2;
+    n/=2;
 }
 console.log ('Количество циклов -', num, 'получившееся число -', n);
+//
+let m = 2;
+while (m<=31) {
+    console.log ('Сегодня пятница', m)
+    m+=7
+}
