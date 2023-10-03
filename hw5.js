@@ -61,30 +61,38 @@ function cube(a) {
     }
 }
 cube();
-// //
+//
 const circle1 = {
     radius: 10,
     getArea: function square1 (params) {
-    
+        console.log (3,14*(this.radius**2));
+        return 3,14*(this.radius**2);
     },
     getPerimeter: function perimeter (params) {
-    
+        console.log (2*3,14*this.radius);
+        return 2*3,14*this.radius;
     }
 }
+circle1.getArea();
+circle1.getPerimeter();
 
 const circle2 = {
     radius: 5,
     getArea: function square2 () {
-        return 3,14*${this.radius**2};
-        console.log ;
+        console.log (3,14*(this.radius**2));
+        return 3,14*(this.radius**2);
     },
     getPerimeter: function perimeter () {
-    
+        console.log (2*3,14*this.radius);
+        return 2*3,14*this.radius;
     }
 }
+circle2.getArea();
+circle2.getPerimeter();
+
 
 //let a = 5;
 //let b = '10';
 //console.log (typeof a)
 //console.log (typeof +b, +b, isNaN (b))
-//сделать проверку на isNaN, чтобы в задание не было букв в значение "верно".
+//сделать проверку на isNaN, чтобы в задание не было букв в значение "верно". Как сделать?
