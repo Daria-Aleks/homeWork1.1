@@ -229,6 +229,38 @@ body {
     background-image: url(img/game3_mob.png);
     width: 343px;
   }
+  .first {
+    height: 653px;
+    flex-direction: column;
+  }
+  .first__game_name {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .first__game_description {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+  }
+  .first__game_container {
+    padding-top: 51px;
+  }
+  .first__game_img {
+    padding-top: 64px;
+    display: none;
+    background-image: url(img/first_game_mobile.png);
+  }
+  .first .button__box {
+    display: flex;
+    justify-content: center;
+  }
   .container {
     flex-direction: column;
   }

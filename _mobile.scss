@@ -56,6 +56,43 @@
             }
         }
     }
+    .first{
+        height: 653px;
+        flex-direction: column;
+        &__game{
+            &_name{
+                color: #FFF;
+                text-align: center;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &_description{
+                color: #FFF;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 22px; /* 157.143% */
+            }
+            &_container { 
+                padding-top: 51px;}
+            &_img{
+                padding-top: 64px;
+                display: none;
+                background-image: url(img/first_game_mobile.png);
+            }
+        }
+    .button{
+        &__box{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    }
+
     .container{
         flex-direction: column;
     }
