@@ -254,8 +254,6 @@ body {
   }
   .first__game_img {
     padding-top: 64px;
-    display: none;
-    background-image: url(img/first_game_mobile.png);
   }
   .first .button__box {
     display: flex;
