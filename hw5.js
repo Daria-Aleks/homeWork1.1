@@ -12,8 +12,10 @@ returnNumber (10, 5);
 function evenNumbers(a) {
     if (a%2 === 0) {
         console.log (`Число четное ${a}`)
+        return `Число четное ${a}`
     } else {
         console.log (`Число нечетное ${a}`)
+        return `Число нечетное ${a}`
     }
 }
 evenNumbers (10);
@@ -55,6 +57,7 @@ function cube(a) {
     let userNumber = prompt ('Какое число возвести в куб?')
     if (isNaN(userNumber)) {
         console.log ('Переданный параметр не является числом');
+        return userNumber;
     } else {
         console.log (userNumber**3);
         return userNumber**3;
@@ -64,31 +67,25 @@ cube();
 //
 const circle1 = {
     radius: 10,
-    getArea: function square1 (params) {
-        console.log (3,14*(this.radius**2));
-        return 3,14*(this.radius**2);
-    },
-    getPerimeter: function perimeter (params) {
-        console.log (2*3,14*this.radius);
-        return 2*3,14*this.radius;
-    }
+    getArea,
+    getPerimeter,
 }
-circle1.getArea();
-circle1.getPerimeter();
-
 const circle2 = {
     radius: 5,
-    getArea: function square2 () {
-        console.log (3,14*(this.radius**2));
-        return 3,14*(this.radius**2);
-    },
-    getPerimeter: function perimeter () {
-        console.log (2*3,14*this.radius);
-        return 2*3,14*this.radius;
-    }
+    getArea,
+    getPerimeter,
 }
-circle2.getArea();
-circle2.getPerimeter();
+function getArea () {
+    console.log (3,14*(this.radius**2));
+    return 3,14*(this.radius**2);
+}
+function getPerimeter () {
+    console.log (2*3,14*this.radius);
+    return 2*3,14*this.radius;
+}
+getArea(circle1);
+
+
 
 
 //let a = 5;
