@@ -83,7 +83,11 @@ function getPerimeter () {
     console.log (2*3,14*this.radius);
     return 2*3,14*this.radius;
 }
-getArea(circle1);
+console.log (circle1.getArea)
+console.log (circle1.getPerimeter)
+console.log (circle2.getArea)
+console.log (circle1.getPerimeter)
+
 
 
 
