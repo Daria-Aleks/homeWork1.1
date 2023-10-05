@@ -126,8 +126,7 @@ body {
     height: 800px;
     background: hsl(214, 100%, 4%);
     display: flex;
-    flex-direction: row;
-    gap: 135px;
+    justify-content: space-around;
     &__game {
         &_name{
             color: #FFF;
@@ -142,6 +141,7 @@ body {
             font-style: normal;
             font-weight: 300;
             line-height: 32px; /* 177.778% */
+            max-width: 584px;
         }
         &_button{
             width: 234.063px;
@@ -166,9 +166,12 @@ body {
             gap: 32px;
         }
         &_img{
-            padding-top: 233.5px;
         }
     }
+
+}
+.box {
+    padding-top: 233px;
 }
 
 .content-center {

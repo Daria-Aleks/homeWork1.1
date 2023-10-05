@@ -59,6 +59,7 @@
     .first{
         height: 653px;
         flex-direction: column;
+        justify-content: space-around;
         &__game{
             &_name{
                 color: #FFF;
@@ -79,7 +80,9 @@
             &_container { 
                 padding-top: 51px;}
             &_img{
-                padding-top: 64px;
+                max-width: 100%;
+                width: 344px;
+                height: 236px;
 
             }
         }
@@ -89,7 +92,9 @@
             justify-content: center;
         }
     }
-
+    .box {
+        padding-top: 0px;
+    }
     }
 
     .container{
