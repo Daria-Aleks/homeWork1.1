@@ -44,7 +44,7 @@ for (let i = 0; i < numbers.length; i++) {
     break;
   }
 }
-if (isGuessed) {
+if (isGuessed == true) {
   alert("угадал");
 } else {
   alert("не угадал");
