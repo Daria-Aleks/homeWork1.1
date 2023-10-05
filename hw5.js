@@ -88,12 +88,3 @@ console.log (circle1.getPerimeter)
 console.log (circle2.getArea)
 console.log (circle1.getPerimeter)
 
-
-
-
-
-//let a = 5;
-//let b = '10';
-//console.log (typeof a)
-//console.log (typeof +b, +b, isNaN (b))
-//сделать проверку на isNaN, чтобы в задание не было букв в значение "верно". Как сделать?
