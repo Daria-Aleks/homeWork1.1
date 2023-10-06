@@ -125,6 +125,7 @@ body {
   background: hsl(214, 100%, 4%);
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .first__game_name {
   color: #FFF;
@@ -163,6 +164,61 @@ body {
   padding-top: 282px;
   gap: 32px;
 }
+.second {
+  height: 800px;
+  background: hsl(214, 100%, 4%);
+}
+.second__game {
+  display: flex;
+  justify-content: space-around;
+  gap: 135px;
+}
+.second__game_imgbox {
+  padding-top: 239px;
+  width: 500px;
+}
+.second__game_box {
+  padding-top: 282px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.second__game_text {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.second__game_textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.second__game_description {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+}
+.second__game_button {
+  width: 240.441px;
+  height: 48.603px;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+.second__game_button:hover {
+  background: #399de5;
+  color: #FFF;
+}
+
 .box {
   padding-top: 233px;
 }
@@ -264,6 +320,51 @@ body {
   }
   .first .box {
     padding-top: 0px;
+  }
+  .second__button_box {
+    display: flex;
+    justify-content: center;
+  }
+  .second__game {
+    gap: 0px;
+    flex-wrap: wrap-reverse;
+  }
+  .second__game_text {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .second__game_img {
+    width: 100px;
+    width: 344px;
+    height: 231px;
+  }
+  .second__game_imgbox {
+    padding-top: 64px;
+  }
+  .second__game_textbox {
+    padding-top: 51px;
+  }
+  .second__game_box {
+    padding-top: 0px;
+  }
+  .second__game_description {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+  }
+  .second__game_button {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
   .container {
     flex-direction: column;

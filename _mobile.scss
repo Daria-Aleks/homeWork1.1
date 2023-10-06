@@ -96,7 +96,55 @@
         padding-top: 0px;
     }
     }
-
+    .second {
+        &__button{
+            &_box{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        &__game{
+            gap: 0px;
+            flex-wrap: wrap-reverse;
+            &_text {
+                color: #FFF;
+                text-align: center;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &_img{
+                width: 100px;
+                width: 344px;
+                height: 231px;
+            }
+            &_imgbox{
+                padding-top: 64px;
+            }
+            &_textbox{
+                padding-top: 51px;
+            }
+            &_box {
+                padding-top: 0px;
+            }
+            &_description{
+                color: #FFF;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 22px; /* 157.143% */
+            }
+            &_button {
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
     .container{
         flex-direction: column;
     }

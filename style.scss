@@ -127,6 +127,7 @@ body {
     background: hsl(214, 100%, 4%);
     display: flex;
     justify-content: space-around;
+    align-items: center;
     &__game {
         &_name{
             color: #FFF;
@@ -169,6 +170,63 @@ body {
         }
     }
 
+    
+}
+
+
+.second {
+    height: 800px;
+    background: hsl(214, 100%, 4%);
+    &__game {
+        display: flex;
+        justify-content: space-around;
+        gap: 135px;
+        &_imgbox {
+            padding-top: 239px;
+            width: 500px;
+        }
+        &_box{
+            padding-top: 282px;
+            display: flex;
+            gap: 32px;
+            flex-direction: column;
+        }
+        &_text{
+            color: #FFF;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_textbox{
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+        &_description {
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px; /* 177.778% */
+        }
+        &_button {
+            width: 240.441px;
+            height: 48.603px;
+            border-radius: 30px;
+            background: #9C0332;
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            border: none;
+            &:hover {
+                background: #399de5;
+                color: #FFF;
+            }
+        }
+    }
 }
 .box {
     padding-top: 233px;
@@ -179,7 +237,7 @@ body {
     padding-right: calc(50% - 600px);
 }
 
-    
+
 
 
 
